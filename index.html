@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>interval timeout</title>
+</head>
+<body>
+
+
+<script>
+    let start=setInterval(menu,1000);
+	let count=0;
+	
+	function menu(){
+	   count++;
+	   document.write("santhiya","<br>");
+	   if(count==5){
+	        clearInterval(start);
+	   }
+	}
+	
+
+</script>
+
+
+
+</body>
+</html>
